@@ -4,6 +4,16 @@ body, html {
     height: 100%;
 }
 
+p {
+    text-align: center;
+    padding-right: 50%;
+}
+
+i {
+    float:right;
+    padding-right: 73%;
+}
+
 a {
     color:#BFD8AF !important;
     text-decoration: none !important;
@@ -86,7 +96,18 @@ a:hover {
     text-align: center; 
 }
 
-.already-registered {
+.signup-link {
+    padding-top: 8%;
+    float: right;
+    font-size: smaller;
+}
+
+.signup-with {
+    float: right;
+    font-size: large;
+}
+
+.forgot-password {
     margin-top: 4%;
     float: right;
     font-size: smaller;
